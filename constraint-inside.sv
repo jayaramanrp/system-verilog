@@ -3,6 +3,8 @@
 class cons;
 rand bit[0:8] number;
 constraint c1 {number inside {1,2,[3:9]};}
+    //constraint c1 {!(number inside {1,2,[3:9]});} Invert the condition 
+
 endclass
 
 module test;
