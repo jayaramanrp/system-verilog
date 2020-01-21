@@ -26,3 +26,10 @@ module test;
         end //for_loop
      end
 endmodule //test
+
+
+//output
+// KERNEL: output 1
+// KERNEL: output 0
+// KERNEL: output 2
+// KERNEL: output 1
